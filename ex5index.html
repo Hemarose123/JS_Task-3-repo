@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divide Function</title>
+  </head>
+  <body>
+    <h2>Divide Function</h2>
+    <div id="output"></div>
+
+    <script>
+      function divide(a, b) {
+        if (b === 0) {
+          return "Cannot divide by zero!";
+        }
+        return a / b;
+      }
+
+      let result = divide(20, 5);
+      console.log("Division:", result);
+
+      document.getElementById("output").textContent = "Division: " + result;
+    </script>
+  </body>
+</html>

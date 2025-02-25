@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Square Function</title>
+  </head>
+  <body>
+    <h2>Square Function</h2>
+    <div id="output"></div>
+
+    <script>
+      function square(num) {
+        return num * num;
+      }
+
+      let result = square(9);
+      console.log("Square:", result);
+
+      document.getElementById("output").textContent = "Square: " + result;
+    </script>
+  </body>
+</html>
